@@ -26,6 +26,10 @@ And much more.
 
 There is also an audience client, that is designed to be used by players who will answer questions, but not host games. It's a web-based client that can be used on any device with a web browser. You can do *ask the audience* helpers, and we'll also have our *audience mode* that will be useful for BRB screens.
 
+This doesn't *directly* connect to the Player's dedicated server, as it may use a different server (because regions have multiple servers, and the audience may be in a different region). Instead, it connects to the API, which then connects to an assigned server.
+
+Audience members work differently than players, and as such, they have a different server loop, but it's contained within the same Dedicated Server binary.
+
 ## What will these docs contain?
 
 These docs will contain information on how to work with the Dedicated Server, as well as how to set it up and run it. It will also contain information on how to use the API, as well as examples of how to use it.
