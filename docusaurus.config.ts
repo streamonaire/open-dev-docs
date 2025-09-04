@@ -15,15 +15,18 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://open-dev-docs.streamonaire.com',
+    url: 'https://streamonaire.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'streamonaire', // Usually your GitHub org/user name.
+    organizationName: 'streamonaire.github.io', // Usually your GitHub org/user name.
     projectName: 'dev-docs', // Usually your repo name.
+
+    trailingSlash: false, // Add trailing slash to all paths
+    deploymentBranch: 'gh-pages', // Branch to deploy to
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
