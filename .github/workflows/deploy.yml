@@ -28,7 +28,7 @@ jobs:
       - name: Run Build
         uses: borales/actions-yarn@v4
         with:
-            cmd: build
+          cmd: build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
